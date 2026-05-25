@@ -1,0 +1,495 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1779677031259,
+  "projectRoot": "/Users/hongpaul/develop/project-persnol/claude-auto-idea/projects/tradetrack",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "next",
+        "version": "16.2.6",
+        "category": "fullstack"
+      },
+      {
+        "name": "react",
+        "version": "19.2.4",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.2.4",
+        "category": "frontend"
+      },
+      {
+        "name": "@playwright/test",
+        "version": "1.60.0",
+        "category": "testing"
+      },
+      {
+        "name": "jest",
+        "version": "30.4.2",
+        "category": "testing"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build 2>&1",
+    "testCommand": "npm test -- --no-coverage 2>&1",
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "eslint"
+    }
+  },
+  "conventions": {
+    "namingStyle": "camelCase",
+    "importStyle": "ES modules",
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "__tests__",
+      "app",
+      "components",
+      "docs",
+      "lib",
+      "public"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "__tests__": {
+      "path": "__tests__",
+      "purpose": "Test files",
+      "fileCount": 0,
+      "lastAccessed": 1779677031198,
+      "keyFiles": []
+    },
+    "app": {
+      "path": "app",
+      "purpose": "Application code",
+      "fileCount": 4,
+      "lastAccessed": 1779677031199,
+      "keyFiles": [
+        "favicon.ico",
+        "globals.css",
+        "layout.tsx",
+        "page.tsx"
+      ]
+    },
+    "components": {
+      "path": "components",
+      "purpose": "UI components",
+      "fileCount": 0,
+      "lastAccessed": 1779677031208,
+      "keyFiles": []
+    },
+    "db": {
+      "path": "db",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1779677031211,
+      "keyFiles": [
+        "index.ts",
+        "schema.ts"
+      ]
+    },
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 2,
+      "lastAccessed": 1779677031212,
+      "keyFiles": [
+        "PRD.md",
+        "ROADMAP.md"
+      ]
+    },
+    "e2e": {
+      "path": "e2e",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1779677031213,
+      "keyFiles": []
+    },
+    "lib": {
+      "path": "lib",
+      "purpose": "Library code",
+      "fileCount": 1,
+      "lastAccessed": 1779677031213,
+      "keyFiles": [
+        "utils.ts"
+      ]
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 5,
+      "lastAccessed": 1779677031214,
+      "keyFiles": [
+        "file.svg",
+        "globe.svg",
+        "next.svg",
+        "vercel.svg",
+        "window.svg"
+      ]
+    },
+    "repositories": {
+      "path": "repositories",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1779677031214,
+      "keyFiles": [
+        "customer.repository.ts",
+        "invoice.repository.ts",
+        "job.repository.ts"
+      ]
+    },
+    "types": {
+      "path": "types",
+      "purpose": "Type definitions",
+      "fileCount": 1,
+      "lastAccessed": 1779677031215,
+      "keyFiles": [
+        "index.ts"
+      ]
+    },
+    "__tests__/api": {
+      "path": "__tests__/api",
+      "purpose": "API routes",
+      "fileCount": 0,
+      "lastAccessed": 1779677031217,
+      "keyFiles": []
+    },
+    "app/api": {
+      "path": "app/api",
+      "purpose": "API routes",
+      "fileCount": 0,
+      "lastAccessed": 1779677031221,
+      "keyFiles": []
+    },
+    "db/migrations": {
+      "path": "db/migrations",
+      "purpose": "Database migrations",
+      "fileCount": 0,
+      "lastAccessed": 1779677031225,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "app/api/invoices/[id]/pdf/route.ts",
+      "accessCount": 9,
+      "lastAccessed": 1779677615256,
+      "type": "file"
+    },
+    {
+      "path": "lib/validations/job.schema.ts",
+      "accessCount": 4,
+      "lastAccessed": 1779677969243,
+      "type": "file"
+    },
+    {
+      "path": "app/api/jobs/[id]/route.ts",
+      "accessCount": 3,
+      "lastAccessed": 1779677518253,
+      "type": "file"
+    },
+    {
+      "path": "types/index.ts",
+      "accessCount": 3,
+      "lastAccessed": 1779677976099,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 3,
+      "lastAccessed": 1779678224845,
+      "type": "file"
+    },
+    {
+      "path": "app/layout.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1779677136650,
+      "type": "file"
+    },
+    {
+      "path": "app/page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1779677152753,
+      "type": "file"
+    },
+    {
+      "path": "app/api/dashboard/route.ts",
+      "accessCount": 2,
+      "lastAccessed": 1779677318223,
+      "type": "file"
+    },
+    {
+      "path": "next.config.ts",
+      "accessCount": 2,
+      "lastAccessed": 1779677344277,
+      "type": "file"
+    },
+    {
+      "path": "app/customers/[id]/page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1779677644423,
+      "type": "file"
+    },
+    {
+      "path": "app/customers/page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1779677645473,
+      "type": "file"
+    },
+    {
+      "path": "app/invoices/page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1779677646576,
+      "type": "file"
+    },
+    {
+      "path": "app/jobs/[id]/page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1779677647204,
+      "type": "file"
+    },
+    {
+      "path": "app/jobs/page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1779677648069,
+      "type": "file"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "accessCount": 2,
+      "lastAccessed": 1779677722492,
+      "type": "file"
+    },
+    {
+      "path": "components/invoice/InvoiceItems.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1779677728374,
+      "type": "file"
+    },
+    {
+      "path": "db/index.ts",
+      "accessCount": 2,
+      "lastAccessed": 1779677849735,
+      "type": "file"
+    },
+    {
+      "path": "repositories/job.repository.ts",
+      "accessCount": 2,
+      "lastAccessed": 1779677963864,
+      "type": "file"
+    },
+    {
+      "path": "repositories/invoice.repository.ts",
+      "accessCount": 2,
+      "lastAccessed": 1779677970684,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 2,
+      "lastAccessed": 1779678287256,
+      "type": "file"
+    },
+    {
+      "path": "components/layout/PageHeader.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1779677040846,
+      "type": "file"
+    },
+    {
+      "path": "components/dashboard/RecentJobs.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1779677048002,
+      "type": "file"
+    },
+    {
+      "path": "components/customer/CustomerCard.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1779677055411,
+      "type": "file"
+    },
+    {
+      "path": "components/customer/CustomerForm.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1779677069953,
+      "type": "file"
+    },
+    {
+      "path": "components/job/JobForm.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1779677088489,
+      "type": "file"
+    },
+    {
+      "path": "components/job/PhotoUpload.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1779677100572,
+      "type": "file"
+    },
+    {
+      "path": "app/jobs/new/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1779677173034,
+      "type": "file"
+    },
+    {
+      "path": "app/jobs/[id]/edit/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1779677206404,
+      "type": "file"
+    },
+    {
+      "path": "app/customers/new/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1779677223124,
+      "type": "file"
+    },
+    {
+      "path": "app/customers/[id]/edit/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1779677246821,
+      "type": "file"
+    },
+    {
+      "path": "app/invoices/[id]/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1779677284270,
+      "type": "file"
+    },
+    {
+      "path": "public/manifest.json",
+      "accessCount": 1,
+      "lastAccessed": 1779677350888,
+      "type": "file"
+    },
+    {
+      "path": "lib/pdf/InvoiceDocument.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1779677531257,
+      "type": "file"
+    },
+    {
+      "path": "repositories/customer.repository.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779677962928,
+      "type": "file"
+    },
+    {
+      "path": "lib/utils.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779677964260,
+      "type": "file"
+    },
+    {
+      "path": "lib/validations/customer.schema.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779677970439,
+      "type": "file"
+    },
+    {
+      "path": "db/schema.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779677976172,
+      "type": "file"
+    },
+    {
+      "path": "tsconfig.json",
+      "accessCount": 1,
+      "lastAccessed": 1779677983723,
+      "type": "file"
+    },
+    {
+      "path": "lib/validations/invoice.schema.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779677991440,
+      "type": "file"
+    },
+    {
+      "path": "jest.config.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779678112445,
+      "type": "file"
+    },
+    {
+      "path": "__tests__/helpers/testDb.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779678119517,
+      "type": "file"
+    },
+    {
+      "path": "__tests__/lib/utils.test.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779678133451,
+      "type": "file"
+    },
+    {
+      "path": "__tests__/lib/validations/customer.schema.test.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779678143966,
+      "type": "file"
+    },
+    {
+      "path": "__tests__/lib/validations/job.schema.test.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779678155862,
+      "type": "file"
+    },
+    {
+      "path": "__tests__/lib/validations/invoice.schema.test.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779678165583,
+      "type": "file"
+    },
+    {
+      "path": "__tests__/repositories/customer.repository.test.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779678182916,
+      "type": "file"
+    },
+    {
+      "path": "__tests__/repositories/job.repository.test.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779678203574,
+      "type": "file"
+    },
+    {
+      "path": "__tests__/repositories/invoice.repository.test.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779678219765,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
