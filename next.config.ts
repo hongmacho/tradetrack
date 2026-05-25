@@ -10,6 +10,7 @@ const withPWA = require('next-pwa')({
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  serverExternalPackages: ['@react-pdf/renderer'],
 }
 
 export default withPWA(nextConfig)

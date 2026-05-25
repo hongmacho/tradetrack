@@ -6,13 +6,14 @@ import {
   StyleSheet,
   Font,
 } from '@react-pdf/renderer'
+import path from 'path'
 import type { InvoiceWithJob } from '@/types'
 
 Font.register({
   family: 'NotoSansKR',
   fonts: [
     {
-      src: 'https://fonts.gstatic.com/s/notosanskr/v36/PbyxFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0DPdWuqxJFA4GNDCBYtw.0.woff',
+      src: path.resolve(process.cwd(), 'public/fonts/NotoSansKR-Regular.ttf'),
     },
   ],
 })
